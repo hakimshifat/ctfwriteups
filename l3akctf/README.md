@@ -1,5 +1,5 @@
-## Baby Rev
-*Reverse Engineering*
+## baby Rev
+![](../attachments/Pasted%20image%2020250715145632.png)
 
 Got something interesting by running *strings* command.
 
@@ -180,4 +180,11 @@ I searched it in google and found that it is basically a *Weather Fax* that tran
 And also google search also revealed that there are *decoder* to decode this type of audios.
 And one of them that can be installed on linux is *wmtoimg*
 
-so i did. 
+so i did. Then 
+```bash
+wxtoimg -f 8000 beneath_the_surface.wav output.png
+```
+
+-f -> frequency -> sample rate from exiftool
+![](../attachments/Pasted%20image%2020250715145559.png)
+	And thats the flag.
