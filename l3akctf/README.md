@@ -143,6 +143,23 @@ say input = "L3AK{ngx_qkt_fgz_ugffq_uxtll_dt}"
 
 it only happens for lowercase letters. cause there is no change for Highercase letter in remap array.
 
+script for it:
+```python
+a = "qwertyuiopasdfghjklzxcvbnm"
+b = "abcdefghijklmnopqrstuvwxyz"
+
+solved=""
+
+enc = "ngx_qkt_fgz_ugffq_uxtll_dt"
+for i in enc:
+    if i in a:
+        index = a.index(i)
+        solved+=b[index]
+    else:
+        solved+=i
+print(solved)
+
+```
 
 
 
