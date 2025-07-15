@@ -2,9 +2,9 @@
 *Reverse Engineering*
 
 Got something interesting by running *strings* command.
-![[../attachments/Pasted image 20250715073909.png]]
+![../attachments/Pasted image 20250715073909.png](../attachments/Pasted image 20250715073909.png)
 
-![[../attachments/Pasted image 20250715073702.png]]
+![../attachments/Pasted image 20250715073702.png](../attachments/Pasted image 20250715073702.png)
 So Typical Crackme
 *Strace* and *ltrace* returns nothing.
 
@@ -33,7 +33,7 @@ int __fastcall main(int argc, const char **argv, const char **envp)
 }
 ```
 
-![[../attachments/Pasted image 20250715074124.png]]
+![../attachments/Pasted image 20250715074124.png](../attachments/Pasted image 20250715074124.png)
 Flag contains the thing that i got from strings command earlier. But that is not the correct flag. The formatting is correct but the flag inside is not.
 
 
@@ -103,7 +103,7 @@ It starts at 0x40C0
 
 byte_4121 starts at 0x4121
 
-![[../attachments/Pasted image 20250715081106.png]]
+![../attachments/Pasted image 20250715081106.png](../attachments/Pasted image 20250715081106.png)
 
 so basically remap[97] = byte_4142
 
