@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,8 +169,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbfbdd040026d401",
+  "active": "0fe4b4eb437188bb",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250715081106.png",
+    "l3akctf/Rev/babyRev/babyrev.til",
+    "l3akctf/Rev/babyRev/babyrev.id2",
+    "l3akctf/Rev/babyRev/babyrev.nam",
+    "l3akctf/Rev/babyRev/babyrev.id1",
+    "l3akctf/Rev/babyRev/babyrev.id0",
+    "attachments/Pasted image 20250715074124.png",
+    "attachments/Pasted image 20250715073909.png",
+    "attachments/Pasted image 20250715073702.png",
     "attachments",
     "l3akctf/README.md"
   ]
