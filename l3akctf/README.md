@@ -178,7 +178,7 @@ a wav audio file is given. Running *exiftool* gives and interesting comment.
 I searched it in google and found that it is basically a *Weather Fax* that transmits images using audio.
 
 And also google search also revealed that there are *decoder* to decode this type of audios.
-And one of them that can be installed on linux is *wmtoimg*
+And one of them that can be installed on linux is *wxtoimg*
 
 so i did. Then 
 ```bash
