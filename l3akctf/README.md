@@ -167,3 +167,17 @@ print(solved)
 Flag: L3AK{you_are_not_gonna_guess_me}
 ![](../attachments/Pasted%20image%2020250715093114.png)
 
+## Hardware-RF
+![](../attachments/Pasted%20image%2020250715144852.png)
+a wav audio file is given. Running *exiftool* gives and interesting comment.
+
+![](../attachments/Pasted%20image%2020250715144945.png)
+
+#### WEFAX576 freq = 14011.900
+
+I searched it in google and found that it is basically a *Weather Fax* that transmits images using audio.
+
+And also google search also revealed that there are *decoder* to decode this type of audios.
+And one of them that can be installed on linux is *wmtoimg*
+
+so i did. 
