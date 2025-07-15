@@ -2,6 +2,7 @@
 *Reverse Engineering*
 
 Got something interesting by running *strings* command.
+
 ![Pasted image 20250715073909.png](../attachments/Pasted%20image%2020250715073909.png)
 
 ![Pasted image 20250715073702.png](../attachments/Pasted%20image%2020250715073702.png)
@@ -145,7 +146,7 @@ it only happens for lowercase letters. cause there is no change for Highercase l
 
 script for it:
 ```python
-a = "qwertyuiopasdfghjklzxcvbnm"
+a = "qGwertyuiopasdfghjklzxcvbnm"
 b = "abcdefghijklmnopqrstuvwxyz"
 
 solved=""
@@ -163,4 +164,6 @@ print(solved)
 
 
 
+Flag: L3AK{you_are_not_gonna_guess_me}
+![](../attachments/Pasted%20image%2020250715093114.png)
 
