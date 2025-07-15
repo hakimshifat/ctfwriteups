@@ -143,7 +143,7 @@ say input = "L3AK{ngx_qkt_fgz_ugffq_uxtll_dt}"
 
 it only happens for lowercase letters. cause there is no change for Highercase letter in remap array.
 
-	
+
 
 
 
